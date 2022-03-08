@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #ac9dca;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    color: #eeb6c5;
+    opacity: 0.7;
+    font-weight: bold;
+  }
+  
+  .logo img{
+      height: 8vh;
+  }
+  
+  nav {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+  }
+  
+  main {
+    background: url("/src/background.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+  }
+  
+  .menu {
+    display: flex;
+    position: relative;
+    margin-left: 300px;
+  }
+  
+  .menu a {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+
+  .texto{
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  h1{
+      font-family: 'Franchise';
+      font-size: 80px;
+  }
+
+  p{
+      font-weight: bold;
+  }
+
+  .btn{
+    width: 130px;
+    height: 60px;
+    background-color: #23232e;
+    margin-top: 40px;
+    color: #eeb6c5;
+    font-family: Regular;
+    font-size: 40px;
+    border-radius: 30px;
+    border: 5px solid #23232e;
+  }
+
+  .btn:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: #23232e;
+  }
+
+  .social-media{
+    position: absolute;
+    top: 300px;
+    right: 5px;
+  }
+  .social-media img{
+      width: 30px;
+      height: 30px;
+      display: block;
+      padding: 10px;
+  }
+
+  
+  

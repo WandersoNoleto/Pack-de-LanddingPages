@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Franchise';
+    src: url('/src/Franchise.ttf') format('truetype'), 
+    url('/src/FranchiseFilled.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url('/src/Regular.ttf') format('truetype');
+}
