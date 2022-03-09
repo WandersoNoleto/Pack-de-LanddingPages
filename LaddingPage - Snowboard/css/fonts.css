@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "MagicalHoliday";
+    src: url("/src/Magical\ Holiday.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Milesons";
+    src: url("/src/GR\ Milesons\ Three.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Franchise";
+    src: url("/src/Franchise.ttf") format("truetype"),
+    url("/src/FranchiseFilled.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url("/src/Regular.ttf") format("truetype");
+}

@@ -101,3 +101,47 @@ main{
 .doe:hover{
     background-color: #8f8d31;
 }
+
+.divisor{
+    width: 50%;
+}
+
+.texto { 
+    margin-left: 20px;
+    margin-top: 150px;
+    position: absolute;
+    text-align: center;
+    color: #000000;
+
+}
+
+h1{
+    font-family: Franchise;
+    font-weight: bold;
+    letter-spacing: 2px;
+    opacity: 0.6;
+}
+
+p, h3{
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.mais{
+    position: relative;
+    margin-top: 30px;
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    font-family: Regular;
+    font-size: 24px;
+    background-color: #686725;
+    color: white;
+    cursor: pointer;
+}
+
+.mais:hover{
+    font-size: 26px;
+    background-color: #8f8d31;
+}
