@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Whitney";
+    src: url("/src/whitney-2-cufonfonts/whitneybold.otf") format("opentype"),
+    url("/src/whitney-2-cufonfonts/whitneybook.otf") format("opentype"),
+    url("/src/whitney-2-cufonfonts/whitneybookitalic.otf") format("opentype"),
+    url("/src/whitney-2-cufonfonts/whitneylight.otf") format("opentype"),
+    url("/src/whitney-2-cufonfonts/whitneymedium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Chronicle";
+    src: url("/src/chronicle-display-cufonfonts/Chronicle\ Display\ Roman.otf") format("opentype"),
+    url("/src/chronicle-display-cufonfonts/Chronicle\ Display\ Black.otf") format("opentype"),    
+    url("/src/chronicle-display-cufonfonts/Chronicle\ Display\ Semibold.otf") format("opentype");
+}

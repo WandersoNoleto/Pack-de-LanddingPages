@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 .search{
@@ -23,33 +24,32 @@
     width: 196px;
     height: 58px;
     left: 62px;
-    top: 28px;
+    top: 8px;
 }
 
 a{
     text-decoration: none;
-    color: #3c3c3c;
 }
 
 nav{
     display:flex;
     justify-content: space-around;
-    height: 100px;
+    height: 80px;
     font-family: Whitney;
     text-transform: uppercase;
     font-weight: 700;
 }
 
 main{
-    background: url("/src/Grand_Prize_Tyler_Schiffman.jpg") no-repeat center center;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4) ),url("/src/Grand_Prize_Tyler_Schiffman.jpg") no-repeat center center;
     background-size: cover;
-    height: 550px;
+    height: 530px;
 }
 
 .menu{
     position: relative;
     left: 140px;
-    top: 47px;
+    top: 27px;
 }
 
 .menu a{
@@ -58,6 +58,7 @@ main{
     font-size: 13px;
     padding-left: 20px;
     cursor: pointer;
+    color: #3c3c3c;
 
 }
 
@@ -67,7 +68,7 @@ main{
 
 .acesso{
     position: relative;
-    top: 40px;
+    top: 20px;
     left: 100px;
     margin-left: 10px;
 }
@@ -103,13 +104,70 @@ main{
     background-color: black;
 }
 
+.texto{
+    position: relative;
+    text-align: center;
+    padding-top: 220px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
 
+.texto h1{
+    font-family: Chronicle;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
 
-@font-face {
-    font-family: "Whitney";
-    src: url("/src/whitney-2-cufonfonts/whitneybold.otf") format("opentype"),
-    url("/src/whitney-2-cufonfonts/whitneybook.otf") format("opentype"),
-    url("/src/whitney-2-cufonfonts/whitneybookitalic.otf") format("opentype"),
-    url("/src/whitney-2-cufonfonts/whitneylight.otf") format("opentype"),
-    url("/src/whitney-2-cufonfonts/whitneymedium.otf") format("opentype");
+.texto a{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.texto a:hover{
+    color: rgb(189, 184, 184);
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+}
+
+.rodape p{
+    font-size: 16px;
+    font-family: Whitney;
+    font-weight: bold;
+    color: #3c3c3c;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+}
+
+.rodape{
+    display: flex;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.separator{
+    position: relative;
+    margin-left: 40px;
+}
+
+.separator a{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: solid 1px #cdcdcd;
+}
+
+.info{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: 20px;
+    top: 500px;
 }
