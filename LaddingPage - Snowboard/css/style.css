@@ -139,9 +139,11 @@ p, h3{
     background-color: #686725;
     color: white;
     cursor: pointer;
+    box-shadow: 2px 2px 1px 1px black;
 }
 
 .mais:hover{
     font-size: 26px;
     background-color: #8f8d31;
+    box-shadow: none;
 }
